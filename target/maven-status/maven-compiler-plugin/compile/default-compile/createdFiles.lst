@@ -1,0 +1,7 @@
+com\example\pokemon\entity\PokemonEntity.class
+com\example\pokemon\PokemonApplication.class
+com\example\pokemon\service\PokemonService.class
+com\example\pokemon\controller\PokemonController.class
+com\example\pokemon\dto\PokemonDTO.class
+com\example\pokemon\mapper\PokemonMapper.class
+com\example\pokemon\repository\PokemonRepository.class
