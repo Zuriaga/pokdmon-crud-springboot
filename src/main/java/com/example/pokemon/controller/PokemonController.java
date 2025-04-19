@@ -33,7 +33,8 @@ public class PokemonController {
     }
 
     @GetMapping("/load")
-    public ResponseEntity<List<PokemonDTO>> loadAndSave() {
-        return ResponseEntity.ok(service.loadAndSavePokemon());
+    public ResponseEntity<String> loadAndSave() {
+        service.loadAndSavePokemons();
+        return ResponseEntity.ok("✅ Pokémons cargados exitosamente");
     }
 }
